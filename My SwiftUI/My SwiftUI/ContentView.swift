@@ -10,9 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("Hello, world!")
-            Image(systemName: "swift")
+            Text("Hello, world!").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+            Image(systemName: "swift").resizable()
+                
+                .frame(width: 100.0, height: 100.0)
+                .background(Color.orange).padding([.leading, .bottom, .trailing], 10)
         }
+        .padding()
     }
 }
 
