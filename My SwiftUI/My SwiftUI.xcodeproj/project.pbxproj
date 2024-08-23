@@ -15,6 +15,7 @@
 		981AE48E2C74B49B009DB408 /* My_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE48D2C74B49B009DB408 /* My_SwiftUIUITests.swift */; };
 		981AE4902C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE48F2C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift */; };
 		981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4A72C787B76009DB408 /* Challenge 1.swift */; };
+		981AE4AA2C787E37009DB408 /* Challenge 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4A92C787E37009DB408 /* Challenge 2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		981AE48D2C74B49B009DB408 /* My_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		981AE48F2C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		981AE4A72C787B76009DB408 /* Challenge 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 1.swift"; sourceTree = "<group>"; };
+		981AE4A92C787E37009DB408 /* Challenge 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				981AE4A72C787B76009DB408 /* Challenge 1.swift */,
+				981AE4A92C787E37009DB408 /* Challenge 2.swift */,
 			);
 			path = Modifier_Match_Challenge;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981AE4752C74B499009DB408 /* ContentView.swift in Sources */,
+				981AE4AA2C787E37009DB408 /* Challenge 2.swift in Sources */,
 				981AE4732C74B499009DB408 /* My_SwiftUIApp.swift in Sources */,
 				981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */,
 			);
