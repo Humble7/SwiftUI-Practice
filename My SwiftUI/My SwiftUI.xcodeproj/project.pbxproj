@@ -98,10 +98,11 @@
 		981AE4712C74B499009DB408 /* My SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				981AE4A62C787B44009DB408 /* Modifier_Match_Challenge */,
-				981AE4722C74B499009DB408 /* My_SwiftUIApp.swift */,
-				981AE4742C74B499009DB408 /* ContentView.swift */,
 				981AE4762C74B49B009DB408 /* Assets.xcassets */,
+				981AE4742C74B499009DB408 /* ContentView.swift */,
+				981AE4722C74B499009DB408 /* My_SwiftUIApp.swift */,
+				981AE4AB2C78807F009DB408 /* part1 */,
+				981AE4AC2C78808D009DB408 /* part2 */,
 				981AE4782C74B49B009DB408 /* Preview Content */,
 			);
 			path = "My SwiftUI";
@@ -139,6 +140,21 @@
 				981AE4A92C787E37009DB408 /* Challenge 2.swift */,
 			);
 			path = Modifier_Match_Challenge;
+			sourceTree = "<group>";
+		};
+		981AE4AB2C78807F009DB408 /* part1 */ = {
+			isa = PBXGroup;
+			children = (
+				981AE4A62C787B44009DB408 /* Modifier_Match_Challenge */,
+			);
+			path = part1;
+			sourceTree = "<group>";
+		};
+		981AE4AC2C78808D009DB408 /* part2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = part2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
