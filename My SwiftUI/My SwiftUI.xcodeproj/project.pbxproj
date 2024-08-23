@@ -14,6 +14,7 @@
 		981AE4842C74B49B009DB408 /* My_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4832C74B49B009DB408 /* My_SwiftUITests.swift */; };
 		981AE48E2C74B49B009DB408 /* My_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE48D2C74B49B009DB408 /* My_SwiftUIUITests.swift */; };
 		981AE4902C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE48F2C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift */; };
+		981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4A72C787B76009DB408 /* Challenge 1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		981AE4892C74B49B009DB408 /* My SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		981AE48D2C74B49B009DB408 /* My_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		981AE48F2C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		981AE4A72C787B76009DB408 /* Challenge 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 1.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		981AE4712C74B499009DB408 /* My SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				981AE4A62C787B44009DB408 /* Modifier_Match_Challenge */,
 				981AE4722C74B499009DB408 /* My_SwiftUIApp.swift */,
 				981AE4742C74B499009DB408 /* ContentView.swift */,
 				981AE4762C74B49B009DB408 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				981AE48F2C74B49B009DB408 /* My_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "My SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		981AE4A62C787B44009DB408 /* Modifier_Match_Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				981AE4A72C787B76009DB408 /* Challenge 1.swift */,
+			);
+			path = Modifier_Match_Challenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				981AE4752C74B499009DB408 /* ContentView.swift in Sources */,
 				981AE4732C74B499009DB408 /* My_SwiftUIApp.swift in Sources */,
+				981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
