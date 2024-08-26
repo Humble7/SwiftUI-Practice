@@ -17,6 +17,7 @@
 		981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4A72C787B76009DB408 /* Challenge 1.swift */; };
 		981AE4AA2C787E37009DB408 /* Challenge 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4A92C787E37009DB408 /* Challenge 2.swift */; };
 		981AE4AF2C7880DF009DB408 /* State_and_Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4AE2C7880DF009DB408 /* State_and_Binding.swift */; };
+		981AE4B52C7C7D57009DB408 /* LayoutWithStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AE4B42C7C7D57009DB408 /* LayoutWithStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		981AE4A72C787B76009DB408 /* Challenge 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 1.swift"; sourceTree = "<group>"; };
 		981AE4A92C787E37009DB408 /* Challenge 2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Challenge 2.swift"; sourceTree = "<group>"; };
 		981AE4AE2C7880DF009DB408 /* State_and_Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_and_Binding.swift; sourceTree = "<group>"; };
+		981AE4B42C7C7D57009DB408 /* LayoutWithStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutWithStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		981AE4AB2C78807F009DB408 /* part1 */ = {
 			isa = PBXGroup;
 			children = (
+				981AE4B32C7C7D2E009DB408 /* Layout With Stacks */,
 				981AE4AD2C7880C3009DB408 /* State & Binding */,
 				981AE4A62C787B44009DB408 /* Modifier_Match_Challenge */,
 			);
@@ -166,6 +169,14 @@
 				981AE4AE2C7880DF009DB408 /* State_and_Binding.swift */,
 			);
 			path = "State & Binding";
+			sourceTree = "<group>";
+		};
+		981AE4B32C7C7D2E009DB408 /* Layout With Stacks */ = {
+			isa = PBXGroup;
+			children = (
+				981AE4B42C7C7D57009DB408 /* LayoutWithStack.swift */,
+			);
+			path = "Layout With Stacks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			files = (
 				981AE4752C74B499009DB408 /* ContentView.swift in Sources */,
 				981AE4AF2C7880DF009DB408 /* State_and_Binding.swift in Sources */,
+				981AE4B52C7C7D57009DB408 /* LayoutWithStack.swift in Sources */,
 				981AE4AA2C787E37009DB408 /* Challenge 2.swift in Sources */,
 				981AE4732C74B499009DB408 /* My_SwiftUIApp.swift in Sources */,
 				981AE4A82C787B76009DB408 /* Challenge 1.swift in Sources */,
